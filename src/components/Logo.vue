@@ -9,7 +9,7 @@
     />
     <span class="blog-title">
       {{ $static.metadata.siteName }}
-      <span class="pen-name">by GrownUprince</span>
+      <span class="pen-name">by {{$static.metadata.siteOwner}}</span>
     </span>
   </g-link>
 </template>
@@ -18,6 +18,7 @@
 query {
   metadata {
     siteName
+    siteOwner
   }
 }
 </static-query>
@@ -36,7 +37,7 @@ query {
 
     font-size: 1.25rem;
     .pen-name {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
   }
 }

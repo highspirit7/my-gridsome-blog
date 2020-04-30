@@ -6,8 +6,7 @@
 
 module.exports = {
   siteName: "블로GU",
-  siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
-
+  siteDescription: '독서 등을 통한 자기 계발에 관심이 많음 주니어 웹프론트엔드 개발자',
   templates: {
     Post: '/:title',
     Tag: '/tag/:id'

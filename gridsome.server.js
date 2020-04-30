@@ -5,8 +5,9 @@
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = function (api) {
-  api.loadSource(({ addCollection }) => {
+module.exports = function(api) {
+  api.loadSource(async (store) => {
     // Use the Data store API here: https://gridsome.org/docs/data-store-api/
-  })
-}
+    store.addMetadata("siteOwner", "GrownUprince");
+  });
+};
