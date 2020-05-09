@@ -6,7 +6,10 @@
       </div>
 
       <div class="header__right">
-        <font-awesome-icon icon="tags" />
+        <g-link to="/tags" class="tags-icon">
+          <font-awesome-icon icon="tags" />
+        </g-link>
+
         <ToggleTheme />
       </div>
     </header>
@@ -52,6 +55,12 @@ export default {
   &__right {
     display: flex;
     align-items: center;
+  }
+
+  &__right {
+    a {
+      color: var(--body-color);
+    }
   }
 
   @media screen and (min-width: 1540px) {
