@@ -5,3 +5,32 @@
 .space-bottom {
 	margin-bottom: var(--space);
 }
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 834px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1024px;
+  }
+}

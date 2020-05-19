@@ -60,6 +60,7 @@ export default {
   &__right {
     a {
       color: var(--body-color);
+      margin-right: 10px;
     }
   }
 
@@ -73,6 +74,7 @@ export default {
 .main {
   margin: 0 auto;
   padding: 1.5vw 15px 0;
+  min-height: 80vh;
 }
 
 .footer {
