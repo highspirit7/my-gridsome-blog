@@ -9,7 +9,7 @@
             :to="tag.node.path"
             v-for="tag in $page.tags.edges"
             :key="tag.node.id"
-            class="inline-block mr-2 mb-2 px-4 py-2 text-base rounded-full bg-gray-300 hover:bg-grey-300"
+            class="inline-block mr-2 mb-2 px-4 py-2 text-base rounded-full bg-gray-300 hover:bg-gray-400"
           >
             {{ tag.node.title }}
           </g-link>

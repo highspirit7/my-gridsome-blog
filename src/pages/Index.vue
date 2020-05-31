@@ -1,8 +1,5 @@
 <template>
   <Layout>
-    <!-- Author intro -->
-    <!-- <Author :show-title="true" /> -->
-
     <!-- List posts -->
     <div class="posts">
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
@@ -13,7 +10,7 @@
 
 <page-query>
 query {
-  posts: allPost(filter: { published: { eq: true }}) {
+  posts: allPost {
     edges {
       node {
         id
@@ -35,12 +32,10 @@ query {
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
 
 export default {
   components: {
-    Author,
     PostCard
   },
   // metaInfo: {
