@@ -8,6 +8,6 @@
 module.exports = function(api) {
   api.loadSource(async (store) => {
     // Use the Data store API here: https://gridsome.org/docs/data-store-api/
-    store.addMetadata("siteOwner", "GrownUprince");
+    store.addMetadata("siteOwner", "G.Uprince");
   });
 };
