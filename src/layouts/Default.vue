@@ -19,11 +19,14 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
-      <span class="footer__links">
-        Powered by
-        <a href="//gridsome.org">Gridsome</a>
-      </span>
+      <div>
+        <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}</span>
+        <span class="footer__links">
+          Powered by
+          <a href="//gridsome.org">Gridsome</a>
+        </span>
+      </div>
+      <font-awesome-icon icon="github" />
     </footer>
   </div>
 </template>
@@ -80,15 +83,18 @@ export default {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: calc(var(--space) / 2);
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 1rem 0;
   text-align: center;
   font-size: 0.8em;
-
+  border-top: 2px solid var(--border-color);
   > span {
     margin: 0 0.35em;
   }
-
+  .footer__links {
+    font-size: 0.8em;
+  }
   a {
     color: currentColor;
   }
