@@ -19,14 +19,18 @@
     </main>
 
     <footer class="footer">
-      <div>
-        <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}</span>
-        <span class="footer__links">
-          Powered by
-          <a href="//gridsome.org">Gridsome</a>
-        </span>
+      <div class="container mx-auto flex justify-between items-center">
+        <div>
+          <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}</span>
+          <span class="footer__links">
+            Powered by
+            <a href="//gridsome.org">Gridsome</a>
+          </span>
+        </div>
+        <a href="https://github.com/highspirit7" target="_blank">
+          <font-awesome-icon :icon="['fab', 'github']" size="lg" />
+        </a>
       </div>
-      <font-awesome-icon icon="github" />
     </footer>
   </div>
 </template>
@@ -83,7 +87,6 @@ export default {
 .footer {
   display: flex;
   align-items: center;
-  max-width: var(--content-width);
   margin: 0 auto;
   padding: 1rem 0;
   text-align: center;

@@ -5,7 +5,7 @@
 
       <PostMeta :post="$page.post" />
 
-      <div class="markdown-body bg-white p-12" v-html="$page.post.content" />
+      <div class="markdown-body bg-white p-10" v-html="$page.post.content" />
 
       <div class="post__footer">
         <PostTags :post="$page.post" />
@@ -17,6 +17,26 @@
     </div>
   </Layout>
 </template>
+
+
+<page-query>
+query Post ($path: String!) {
+  post: post (path: $path) {
+    title
+    path
+    date (format: "D. MMMM YYYY")
+    timeToRead
+    tags {
+      id
+      title
+      path
+    }
+    description
+    content
+    cover_image (width: 860, blur: 10)
+  }
+}
+</page-query>
 
 <script>
 import PostMeta from "~/components/PostMeta";
@@ -41,23 +61,4 @@ export default {
 };
 </script>
 
-<page-query>
-query Post ($path: String!) {
-  post: post (path: $path) {
-    title
-    path
-    date (format: "D. MMMM YYYY")
-    timeToRead
-    tags {
-      id
-      title
-      path
-    }
-    description
-    content
-    cover_image (width: 860, blur: 10)
-  }
-}
-</page-query>
-
-<style src="/Users/cacheby/Code/personal/my-gridsome-blog/src/assets/style/github-markdown.css" />
+<style src="../assets/style/github-markdown.css" />
