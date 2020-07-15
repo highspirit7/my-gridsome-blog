@@ -5,7 +5,7 @@ tags: ['리스트 렌더링', 'v-for']
 series: true
 canonical_url: false
 description: "자바스크립트에서 if, else if, else를 사용하는 방법과 동일하다. 그래서 v-else-if는 여러번 사용 가능하다.
-다만, 템플릿에 너무 많은 조건부 로직을 사용하지 않도록 주의하자. 로직이 길어질 때는 computed나 methods를 활용하는 것이 좋다. "
+다만, 템플릿에 너무 많은 조건부 로직을 사용하지 않도록 주의하자. 로직이 길어질 때는 computed나 methods를 활용하는 것이 좋다."
 ---
 
 ### 조건부 사용(v-if, v-else-if, v-else)
