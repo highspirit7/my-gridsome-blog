@@ -1,6 +1,6 @@
 ---
 title: 4장 폼과 입력
-date: 2020-02-24
+date: 2020-07-26
 tags: ['양방향 데이터 바인딩', 'v-model', 'v-for']
 series: true
 canonical_url: false
