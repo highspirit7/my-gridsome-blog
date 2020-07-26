@@ -39,11 +39,18 @@ JavaScript
 
 v-model 디렉티브는 사실 v-bind 디렉티브를 내부적으로 사용하고 있는 syntax sugar.
 
-**책에서 나오는 상세설명 
+__책에서 나오는 상세설명__ 
 
 `<input v-model="something">`은 `<input v-bind:"something" v-on:input="something=$event.target">`의 문법적 설탕
 
-⇒ 더 정확하게는 `input v-bind:"something"`이 아니라 `input v-bind:value="something"` 이것이 맞는 것 아닌가 싶습니다.
+⇒ 더 정확하게는 `input v-bind:"something"`이 아니라 `input v-bind:value="something"` 이것이 맞습니다. 그리고 입력 요소에 따라 v-model이 구성되는 방식은 달라집니다.(아래 참고)
+
+
+***HTML 입력 요소의 종류에 따른 `v-model` 속성 구성***  
+(1) input 태그에는 `value / input`  
+(2) checkbox 태그에는 `checked / change`  
+(3) select 태그에는 `value / change`
+
 
 **input 체크박스 바인딩 by v-model**
 
@@ -143,3 +150,4 @@ input의 경우에는 type이 text일 때, value가 변했고 포커스를 잃�
 
 - [Vue.js와 양방향 데이터 바인딩](https://brunch.co.kr/@clay1987/139)
 - [change 이벤트](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
+- [v-model의 동작 원리와 활용 방법](https://joshua1988.github.io/web-development/vuejs/v-model-usage/)
