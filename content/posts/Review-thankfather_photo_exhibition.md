@@ -27,4 +27,4 @@ description: "곧 정년퇴직을 하시는 아버지께 편지를 쓰기위해 
 
 > ***은퇴하시면 말 그대로 새로운 인생의 막이 열리게 될 것입니다. 제3의 인생으로 들어서는 만큼 이제는 자식 걱정 줄이시고 아버지 자신을 위한 인생을 잘 살아가시길 진심으로 바랍니다. 시간이 많이 흘러 아버지가 살이 많이 빠지신 것을 보면 자식으로서 안타깝기도 합니다. 건강 잘 유지하셔서 부디 오래오래 함께 계셨으면 좋겠습니다. 존경하고 감사하고 그리고 사랑합니다.***
 
-![https://postfiles.pstatic.net/MjAxOTEyMzBfODgg/MDAxNTc3Njc2OTYzMjQ5.lhslfbR9lpEteaLgdIiU4njI0biA4gipW0Uu__Uxw4Qg.lrif0Xw6G_b11xPUQaQb0dkZ87HQvY6y3vwtp7ONHzsg.JPEG.dlwlduf22/IMG_0469.JPG?type=w966](https://postfiles.pstatic.net/MjAxOTEyMzBfODgg/MDAxNTc3Njc2OTYzMjQ5.lhslfbR9lpEteaLgdIiU4njI0biA4gipW0Uu__Uxw4Qg.lrif0Xw6G_b11xPUQaQb0dkZ87HQvY6y3vwtp7ONHzsg.JPEG.dlwlduf22/IMG_0469.JPG?type=w966)
+![./images/letterToDad.jpg](./images/letterToDad.jpg)

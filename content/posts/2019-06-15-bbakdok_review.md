@@ -17,7 +17,7 @@ description: "'갓'대교가 후원하고 체인지 그라운드가 주관하는
 
 ---
 
-![https://postfiles.pstatic.net/MjAxOTA2MTVfMTI5/MDAxNTYwNjEwNzM0MjAz.MdFs1n4QCSK1uUXqct_buV7PQtaxdFAXsFATenM6OoMg.rIA7SyJGA41rn8WJ8n5XJS2qIYAmnd0DMQ_CoMGlR_Ig.JPEG.dlwlduf22/IMG_0361.JPG?type=w966](https://postfiles.pstatic.net/MjAxOTA2MTVfMTI5/MDAxNTYwNjEwNzM0MjAz.MdFs1n4QCSK1uUXqct_buV7PQtaxdFAXsFATenM6OoMg.rIA7SyJGA41rn8WJ8n5XJS2qIYAmnd0DMQ_CoMGlR_Ig.JPEG.dlwlduf22/IMG_0361.JPG?type=w966)
+![./images/daegyo.jpg](./images/daegyo.jpg)
 
 대교 타워 1층 로비에 있는 엄청 높은 책꽂이입니다. 물론 제일 위에서부터 3번째까지는 진짜 책은 아닙니다.
 
@@ -31,7 +31,7 @@ description: "'갓'대교가 후원하고 체인지 그라운드가 주관하는
 
 ---
 
-![https://postfiles.pstatic.net/MjAxOTA2MTZfMjY2/MDAxNTYwNjExODEzNzY3._Nx2evAzm2_m1dZAKHYuiyyzlZMjImaNXCDPg91TIUog.qL89CnZjTumAxZpZfYFbQusyJ1sF8UQEzbruBEu2jNgg.JPEG.dlwlduf22/KakaoTalk_Photo_2019-06-15-23-48-40.jpeg?type=w966](https://postfiles.pstatic.net/MjAxOTA2MTZfMjY2/MDAxNTYwNjExODEzNzY3._Nx2evAzm2_m1dZAKHYuiyyzlZMjImaNXCDPg91TIUog.qL89CnZjTumAxZpZfYFbQusyJ1sF8UQEzbruBEu2jNgg.JPEG.dlwlduf22/KakaoTalk_Photo_2019-06-15-23-48-40.jpeg?type=w966)
+![./images/myWristAtBbakdok.jpg](./images/myWristAtBbakdok.jpg)
 
 외부인들과 구분하기 위해 이젠 이렇게 손목 밴드를 지급한다고 합니다.
 
@@ -67,6 +67,6 @@ description: "'갓'대교가 후원하고 체인지 그라운드가 주관하는
 
 그리고 마지막에 줄 서서 사인 받는 분들 다 사라진 이후에 신박사님이 써주신 친필 메시지도 받을 수 있었습니다. 원래 싸인 같은 것 태어나서 누구한테 받아본 적도 없어서(원체 연예인 같은 것에 관심이 없습니다...;;), 생각도 안하다가 받았는데 개인적으로 큰 동기 부여가 될 것이라 믿습니다.
 
-![https://postfiles.pstatic.net/MjAxOTA2MTZfODEg/MDAxNTYwNjE0MjU4MDA3.kjNTiWlGjxaKET4Uj3nDR8C0OlbcOfuPXu8TBD_l1Rwg.b8q0-ipYcCgt4ZS7-v4TNteLUXGXQYWa0VG27BeoXq0g.JPEG.dlwlduf22/IMG_0362.JPG?type=w966](https://postfiles.pstatic.net/MjAxOTA2MTZfODEg/MDAxNTYwNjE0MjU4MDA3.kjNTiWlGjxaKET4Uj3nDR8C0OlbcOfuPXu8TBD_l1Rwg.b8q0-ipYcCgt4ZS7-v4TNteLUXGXQYWa0VG27BeoXq0g.JPEG.dlwlduf22/IMG_0362.JPG?type=w966)
+![./images/jolggureogy.jpg](./images/jolggureogy.jpg)
 
 <center style="font-size: 36px; font-weight: bold;">Jolggu!!</center>
