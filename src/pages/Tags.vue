@@ -1,10 +1,10 @@
 <template>
   <Layout>
-    <div class="container mx-auto my-16">
+    <div class="container mx-auto pb-16">
       <h2 class="text-4xl font-bold mb-8 border-b">
         Tags
       </h2>
-        <div class="mb-4">
+        <div>
           <g-link
             :to="tag.node.path"
             v-for="tag in $page.tags.edges"
