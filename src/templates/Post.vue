@@ -11,8 +11,8 @@
         <PostTags :post="$page.post" />
       </div>
 
-      <div class="post-comments">
-        <!-- Add comment widgets here -->
+      <div class="mt-12">
+        <Disqus :identifier="$page.post.title" />
       </div>
     </div>
   </Layout>
@@ -45,7 +45,7 @@ import PostTags from "~/components/PostTags";
 export default {
   components: {
     PostMeta,
-    PostTags
+    PostTags,
   },
   metaInfo() {
     return {
@@ -53,11 +53,11 @@ export default {
       meta: [
         {
           name: "description",
-          content: this.$page.post.description
-        }
-      ]
+          content: this.$page.post.description,
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
