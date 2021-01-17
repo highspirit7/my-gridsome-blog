@@ -7,31 +7,31 @@
 }
 
 .container {
-  width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+	width: 100%;
 }
 
 @media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
+	.container {
+		max-width: 640px;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 }
 
 @media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
+	.container {
+		max-width: 768px;
+	}
 }
 
 @media (min-width: 1024px) {
-  .container {
-    max-width: 834px;
-  }
+	.container {
+		max-width: 834px;
+	}
 }
 
 @media (min-width: 1440px) {
-  .container {
-    max-width: 1024px;
-  }
+	.container {
+		max-width: 1024px;
+	}
 }

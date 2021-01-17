@@ -21,7 +21,9 @@
     <footer class="footer">
       <div class="container mx-auto flex justify-between items-center">
         <div>
-          <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}</span>
+          <span class="footer__copyright"
+            >Copyright © {{ new Date().getFullYear() }}</span
+          >
           <span class="footer__links">
             Powered by
             <a href="//gridsome.org">Gridsome</a>
@@ -43,8 +45,8 @@ export default {
   props: {},
   components: {
     Logo,
-    ToggleTheme
-  }
+    ToggleTheme,
+  },
 };
 </script>
 
@@ -92,6 +94,11 @@ export default {
   text-align: center;
   font-size: 0.8em;
   border-top: 2px solid var(--border-color);
+
+  @media only screen and (max-width: 639px) {
+    padding: 1rem;
+  }
+
   > span {
     margin: 0 0.35em;
   }
